@@ -1,0 +1,63 @@
+@charset "utf-8";
+@import url('slimbox.css');
+@import url('gallery_thumbs.css');
+/*@import url('gallery_paginate.css');*/
+
+#entries {
+	height: auto;
+	padding: 10px 20px 10px 20px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.entry {
+	width: auto;
+	height: auto;
+	display: inline-block;
+	background: #ffffff;
+	border: 1px solid #bbbbbb;
+	padding: 4px;
+	margin: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.55);
+	-khtml-box-shadow: 2px 2px 2px rgba(0,0,0,0.55);
+	-webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.55);
+	-o-box-shadow: 2px 2px 2px rgba(0,0,0,0.55);
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.55);
+	clear: both;
+	zoom: 1;
+	*display: inline;
+}
+
+.votes_count {
+	margin-left: 8px;
+}
+
+a.vote_up {
+	background: url("../images/buttons/thumb_up.png");
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 17px;
+	width: 17px;
+	margin-left: 10px;
+	zoom: 1;
+	*display: inline;
+}
+
+a.vote_down {
+	background: url("../images/buttons/thumb_down.png");
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 17px;
+	width: 17px;
+	margin-left: 6px;
+	zoom: 1;
+	*display: inline;
+}

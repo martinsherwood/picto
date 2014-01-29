@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*layout fix*/
+#footer {
+	margin-top: -92px;
+}
+/*/*/
+
+#contactMain {
+	height: auto;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 0 10px 0;
+}
+
+.contactEntry {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contactEntry img {
+	display: inline-block;
+	vertical-align: middle;
+	/*ie7*/
+	zoom: 1;
+	*display: inline;
+}
+
+.contactEntry p {
+	font-size: medium;
+	font-weight: 500;
+	color: #424242;
+	padding: 0 20px 0 10px;
+	display: inline-block;
+	vertical-align: middle;
+	/*ie7*/
+	zoom: 1;
+	*display: inline;
+}
+

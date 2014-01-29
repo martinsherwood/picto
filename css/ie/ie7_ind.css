@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+#best {
+	margin: 20px 20px 20px 20px;
+	background-image: url(../../images/bar_bg.png);
+	height: 300px;
+}
+
+#recent {
+	margin: 20px 20px 20px 20px;
+	background-image: url(../../images/bar_bg.png);
+	height: 230px;
+}
+
+#popular {
+	margin: 20px 20px 20px 20px;
+	background-image: url(../../images/bar_bg.png);
+	height: 230px;
+}
+
+.barContainer {
+	width: auto;	
+}
+
+.barHeading {
+	font-size: 18px;
+	font-weight: 600;
+	color: #424242;
+	padding: 20px 0 0 20px;
+	display: block;
+}
+
+.barDesc {
+	color: #424242;
+	font-weight: 600;
+	padding: 5px 20px 20px 20px;
+	margin-bottom: -15px;
+	display: block;
+}
+
+.dynamicCont {
+	width: 880px;
+	margin: 10px 10px 10px 10px;
+  	overflow: hidden;
+	position: relative;
+}
+
+.dynamicCont ul {
+	width: 880px;
+	height: 140px;
+	display: block;
+	position: relative;
+	/*overflow: scroll;*/
+	overflow: auto; overflow-y: hidden;
+}
+
+.dynamicCont li {
+	display: block;
+	width: 140px;
+	height: 140px;
+	position: relative;
+}
+
+.scrollSlider {
+	display: none;
+}
+
+/*jquery ui*/
+.ui-slider .ui-slider-handle {
+	display: none;
+}
+
+/*------------------*/
+
+/*auto scroller css*/
+#bestScroller  {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+#bestScroller li {
+	display: block;
+}
+
+.scroll {
+	width: 880px;
+	height: 200px;
+	float: right;
+}
+
+.scroll .scroll-clip {
+	width: 880px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+	
+.scroll .scroll-list li {
+	float: left;
+	width: 201px;
+	height: 200px;
+	overflow: hidden;
+	list-style: none;
+}
+
+.scroll-list li {
+	list-style: none;
+}
+	
+.scroll-list li img {
+	border: none;
+	display: inline-block;
+}
+/*end*/

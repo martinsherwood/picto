@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+#bestScroller  {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+
+#bestScroller li {
+	display: inline-block;
+}
+
+.scroll {
+	width: 680px;
+	height: 200px;
+	margin: 10px 10px 10px 0;
+	float: right;
+}
+
+.scroll .scroll-clip {
+	width: 680px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+	
+.scroll .scroll-list li {
+	float: left;
+	width: 201px;
+	height: 200px;
+	overflow: hidden;
+	list-style: none;
+}
+
+.scroll-list li {
+	list-style: none;
+}
+	
+.scroll-list li img {
+	border: none;
+	display: inline-block;
+}
